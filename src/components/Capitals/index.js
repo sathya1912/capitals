@@ -32,7 +32,7 @@ const countryAndCapitalsList = [
 
 class Capitals extends Component {
   state = {
-    activeCapitalId: this.countryAndCapitalsList[0].id,
+    activeCapitalId: countryAndCapitalsList[0].id,
   }
 
   onChangeCapital = event => {
